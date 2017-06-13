@@ -4,12 +4,13 @@ A wrapper tool for shadowsocks to consistently bypass firewalls.
 ## Usage
 ### Automatically connect
 The easiest way to run this tool is just type `ssct` in terminal, and ssct will acquire available shadowsocks servers from [ishadowsocks](http://ss.ishadowx.com) and connect to it automatically.
+
 ### Connect to a specific server
-First, show all ss servers by `--list` option.
-```ssct --list```
-Then, connect to a specific server by `-n` option.
-```ssct -n 5```
-Alternatively, you can connect a custom server.
+First, show all ss servers by `--list` option.  
+```ssct --list```  
+Then, connect to a specific server by `-n` option.  
+```ssct -n 5```  
+Alternatively, you can connect a custom server.  
 ```ssct -s <server_addr> -p <server_port> -l <local_port> -k <password> -m <method>```
 
 ## More options
